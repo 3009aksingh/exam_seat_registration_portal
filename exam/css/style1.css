@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+	font-family: Arial,Helvetica,san-serif;
+	font-size:15px;
+	line-height: 1.5;
+	padding: 0;
+	background-color: #f4f4f4;
+	background-size: cover;
+	margin: 0;
+}
+/*Globel*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/*header*/
+header{
+	background:#35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #brand{
+	float: left;
+}
+
+header #brand h1{
+	margin: 0;
+}
+
+header .highlight, header .current a{
+	color:#e8491d;
+	font-weight: bold; 
+}
+/*main box*/
+.container1{
+	font-family: 'Montserrat',san-serif;
+	background: #f6f5f7;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	margin: auto;
+	margin-top: 40px;
+	background:#fff;
+	border-radius: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.50), 0 10px 10px rgba(0,0,0,0.30);
+	position: relative;
+	overflow: hidden;
+	width: 700px;
+	max-width: 100%;
+	border: 3px solid #e8491d;
+}
+/*elements*/
+h2{
+	font-weight: bold;
+	margin:0;
+}
+
+p{
+	font-size: 20px;
+}
+
+a{
+	color: #333;
+	font-size: 100px;
+	text-decoration: none;
+	margin: 10px 0;
+}
+/*form*/
+.form-container form{
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.social-container{
+	margin: 20px 0;
+}
+
+.social-container a{
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px;
+	height: 125px;
+	width: 125px;
+}
+/*input*/
+.form-container input{
+	background: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+/*button*/
+button{
+	border-radius: 20px;
+	border: 1px solid #ff4b2b;
+	background: #ff4b2b;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 16px 45px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.form-container{
+	position: absolute;
+	height: 50%;
+}
+
+.sign-up-container{
+	right: 0;
+	width: 50%;
+	z-index: 2;
+}
+
+.sign-in-container{
+	left: 0;
+	width: 50%;
+	z-index: 2;
+	margin-bottom: 100px;
+}
+
+/*footer*/
+footer{
+	padding: 20px;
+	margin-top: 42px;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;
+}
